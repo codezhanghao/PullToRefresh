@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <cn.hebut.hebut.views.ptr.PtrFrameLayout
+        android:id="@+id/ptr_frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/hebut_f1f1f1">
+
+        <ListView
+            android:id="@+id/list_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/hebut_white"
+            android:choiceMode="singleChoice"
+            android:fadingEdge="none"
+            android:listSelector="@android:color/transparent"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:scrollbarStyle="outsideOverlay"/>
+
+    </cn.hebut.hebut.views.ptr.PtrFrameLayout>
+
+</LinearLayout>

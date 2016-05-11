@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <cn.hebut.hebut.views.ptr.PtrFrameLayout
+        android:id="@+id/hebut_ptr_with_rotate_header_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/hebut_f1f1f1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/hebut_white"
+            android:padding="10dp">
+
+            <ImageView
+                android:id="@+id/image_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitCenter"
+                />
+
+        </LinearLayout>
+
+    </cn.hebut.hebut.views.ptr.PtrFrameLayout>
+
+</LinearLayout>
